@@ -1,0 +1,66 @@
+/* 
+Note: Don't write pure css, look up bootstrap to fully achieve its styling.
+*/
+
+body {
+    font-family: 'Poppins', Courier, monospace;
+}
+
+/*section style on paths page*/
+@media (max-width: 577px) {
+    .paths_join {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .acmCreate-sm-order_1 {
+        order: 2;
+    }
+
+    .acmCreate-sm-order_2 {
+        order: -1;
+    }
+}
+
+/* section style on nodeBuds */
+
+.bud-primary {
+    color: #C40042;
+}
+
+@media (max-width: 577px) {
+    .nodeBuds .text {
+        text-align: center;
+    }
+
+    .fall-2020 > div h2, div p {
+        text-align: center;
+    }
+}
+
+/*Section on connect page*/
+.follow_us_social-link {
+    flex-wrap: wrap;
+}
+@media (max-width: 418px) {
+    .follow_us_social-link {
+        gap: 1.5rem !important;
+    }
+}
+
+.follow_us_social-link-2 {
+    padding-top: 2rem;
+}
+.follow_us_social-link-insta button,  .follow_us_social-link-discord  button{
+    display: flex;
+    gap: 5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    border-radius: 1.45rem;
+}
