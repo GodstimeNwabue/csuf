@@ -64,3 +64,10 @@ body {
 textarea {
     border-radius: 1.45rem;
 }
+
+/*Media queries for full page*/
+@media (max-width: 750px) {
+    body {
+        text-align: center;
+    }
+}
