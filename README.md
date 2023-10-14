@@ -42,7 +42,7 @@ Built with HTML, CSS media queries, and bootstrap.
 
 ## Got feedback for me?
 
-Email me at [Godstime Nwabue](nwabuegodstime@gmail.com)
+Email me at nwabuegodstime@gmail.com
 
 ## Project live
 [CSUF | landing page](https://godstimenwabue.github.io/csuf//)
